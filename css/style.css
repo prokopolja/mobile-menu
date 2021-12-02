@@ -1279,7 +1279,7 @@ template {
   background: #FFFFFF;
   border-radius: 4px;
   padding: 18px 23px;
-  max-width: 539px;
+  width: 539px;
   min-height: 123px;
   border: none;
   -ms-flex-preferred-size: 100%;
@@ -1302,6 +1302,9 @@ template {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
 }
 
 .footer__info {
@@ -1709,6 +1712,16 @@ template {
   }
   .card {
     width: 100%;
+  }
+  .activities__card-golf {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .activities__card-marine {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
   }
   .footer-wrapper {
     -ms-grid-columns: 1fr;
